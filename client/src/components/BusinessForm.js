@@ -1,8 +1,3 @@
-import React from 'react';
-
-
-const BusinessForm = () => {
-
-}
+const BusinessForm = () => null;
 
 export default BusinessForm;

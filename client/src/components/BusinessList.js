@@ -1,7 +1,3 @@
-import React from 'react';
-
-const BusinessList = () => {
-  
-}
+const BusinessList = () => null;
 
 export default BusinessList;

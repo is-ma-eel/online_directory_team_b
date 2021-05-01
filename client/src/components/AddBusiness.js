@@ -1,8 +1,3 @@
-import React from 'react';
-import BusinessForm from './BusinessForm';
-
-const AddBusiness = () => {
-  
-}
+const AddBusiness = () => null;
 
 export default AddBusiness;
