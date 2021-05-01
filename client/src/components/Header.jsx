@@ -2,6 +2,8 @@ import styled from "styled-components";
 import Container from "./Container";
 import Button from "./Button";
 import Logo from "./Logo";
+import Introduction from "./Introduction";
+import SearchBox from "./SearchBox";
 
 const Heading = styled.header`
   margin: 0 auto;
@@ -12,12 +14,16 @@ const Heading = styled.header`
 
 const Header = () => {
   return (
-    <Heading>
-      <Container>
-        <Logo />
-        <Button>Register Business</Button>
-      </Container>
-    </Heading>
+    <>
+      <Heading>
+        <Container flex>
+          <Logo />
+          <Button>Register Business</Button>
+        </Container>
+        <Introduction />
+        <SearchBox />
+      </Heading>
+    </>
   );
 };
 
