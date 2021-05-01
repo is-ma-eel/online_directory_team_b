@@ -1,18 +1,23 @@
-import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+import Container from "./Container";
+import Button from "./Button";
+import Logo from "./Logo";
+
+const Heading = styled.header`
+  margin: 0 auto;
+  max-width: 75rem;
+  width: 100%;
+  display: block;
+`;
 
 const Header = () => {
   return (
-    <header>
-      <h1>Online Business Directory</h1>
-      <div className="links">
-        <NavLink to="/" className="link" activeClassName="active" exact>
-          Business List
-        </NavLink>
-        <NavLink to="/add" className="link" activeClassName="active" active>
-          Add Business
-        </NavLink>
-      </div>
-    </header>
+    <Heading>
+      <Container>
+        <Logo />
+        <Button>Register Business</Button>
+      </Container>
+    </Heading>
   );
 };
 
